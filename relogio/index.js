@@ -1,6 +1,8 @@
 const horas = document.getElementById('horas')
 const minutos = document.getElementById('minutos')
 const segundos = document.getElementById('segundos')
+const titulo = document.getElementById('teste')
+console.log(titulo)
 
 const relogio = setInterval(function time ()  {
     let dateToday = new Date();
@@ -19,5 +21,12 @@ const relogio = setInterval(function time ()  {
     minutos.textContent = min;
     segundos.textContent = s;
 })
+
+function menssagemNatela(){
+    alert('Não vá se atrasar heim!')
+}
+
+//Chamando a função ao passar o mouse pelo titulo
+titulo.onmouseover  = menssagemNatela
 
 // Como é bom ver tudo acontecer, Marta vc vai longe acredite sempre em vc Te amo S2 PS: de mim para mim

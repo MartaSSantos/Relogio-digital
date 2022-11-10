@@ -12,7 +12,8 @@ body{
     background: linear-gradient(120deg, #3bffdbd8, #db25ffda);
     /* align-items: center;  */ 
     /* justify-content: center; */
-    align-items: center;
+    margin: 280px;
+    
 }
 .relogio{
     display: flex;
@@ -46,4 +47,16 @@ body{
 
 .relogio span.tempo{
     font-size: 10px;
+}
+
+#teste{
+    background-color: aqua;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: double;
+    margin: 29px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 40px;
+    
+
 }
